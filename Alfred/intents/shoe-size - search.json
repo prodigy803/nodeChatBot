@@ -1,0 +1,119 @@
+{
+  "id": "fc5f8551-ee4f-4c2e-a25a-04a3d4e7bd87",
+  "parentId": "1638dbec-ad44-4347-8798-7060e54feb0d",
+  "rootParentId": "1638dbec-ad44-4347-8798-7060e54feb0d",
+  "name": "shoe-size - search",
+  "auto": true,
+  "contexts": [
+    "shoe-size-message",
+    "shoe-size-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "shoe-size.shoe-size-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "f64d5f18-c365-48a0-9651-8244bb73606e",
+          "required": false,
+          "name": "size",
+          "value": "shoe-size-message#number",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Looking for options. Hold on for a second..."
+        },
+        {
+          "type": "list_card",
+          "platform": "google",
+          "lang": "en",
+          "title": "Nike shoes",
+          "items": [
+            {
+              "optionInfo": {
+                "key": "Option 1",
+                "synonyms": [
+                  "1",
+                  "One",
+                  "First"
+                ]
+              },
+              "title": "White School Shoes",
+              "description": "",
+              "image": {
+                "url": "https://images-na.ssl-images-amazon.com/images/I/71VnQB%2BBTHL._UL1500_.jpg"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Option 2",
+                "synonyms": [
+                  "2",
+                  "Two",
+                  "Second"
+                ]
+              },
+              "title": "Nike Men\u0027s Liteforce III",
+              "description": "Casual Sneakers",
+              "image": {
+                "url": "https://images-na.ssl-images-amazon.com/images/I/819ZIzwwwNL._UL1500_.jpg"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Option 3",
+                "synonyms": [
+                  "3",
+                  "Third",
+                  "Three"
+                ]
+              },
+              "title": "Nike Roshe One",
+              "description": "Black Mesh Sneakers",
+              "image": {
+                "url": "https://images-na.ssl-images-amazon.com/images/I/71LnaBfq7yL._UL1500_.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Option 1"
+            },
+            {
+              "title": "Option 2"
+            },
+            {
+              "title": "Option 3"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Looking for options for your size $size. Give me a minute"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524209640,
+  "fallbackIntent": false,
+  "events": []
+}

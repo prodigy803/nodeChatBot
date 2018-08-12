@@ -1,0 +1,90 @@
+[
+  {
+    "id": "680f21eb-37c4-49c8-987f-9bbe9b2ea9e8",
+    "data": [
+      {
+        "text": "T Shirt size : ",
+        "userDefined": false
+      },
+      {
+        "text": "L",
+        "alias": "tshirt-size",
+        "meta": "@sys.unit-weight-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523339122
+  },
+  {
+    "id": "a859707b-a396-471d-bdcd-270e204b5ad7",
+    "data": [
+      {
+        "text": "My T Shirt size is L",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523339122
+  },
+  {
+    "id": "0e1c8ea5-ac59-4683-8bb1-7ef0f1ff4559",
+    "data": [
+      {
+        "text": "My T Shirt size is ",
+        "userDefined": false
+      },
+      {
+        "text": "M",
+        "alias": "tshirt-size",
+        "meta": "@sys.unit-weight-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523339122
+  },
+  {
+    "id": "aaf75f34-38f8-4bc5-a576-9982312b47f5",
+    "data": [
+      {
+        "text": "S",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523339122
+  },
+  {
+    "id": "eae048ab-35f6-46c9-b920-f7939dc965ae",
+    "data": [
+      {
+        "text": "M",
+        "alias": "tshirt-size",
+        "meta": "@sys.unit-weight-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523339122
+  },
+  {
+    "id": "1f12df9b-e6fd-4c6f-9878-ede9a4e12d1d",
+    "data": [
+      {
+        "text": "L",
+        "alias": "tshirt-size",
+        "meta": "@sys.unit-weight-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523339122
+  }
+]

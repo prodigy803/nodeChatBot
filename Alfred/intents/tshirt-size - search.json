@@ -1,0 +1,98 @@
+{
+  "id": "fb2f8f8b-c155-4e56-8831-f0607e6c889d",
+  "parentId": "f7ae338d-a82c-464b-a8ab-ff89b48a57e9",
+  "rootParentId": "f7ae338d-a82c-464b-a8ab-ff89b48a57e9",
+  "name": "tshirt-size - search",
+  "auto": true,
+  "contexts": [
+    "tshirt-size-message",
+    "tshirt-size-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "tshirt-size.tshirt-size-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "a7e6d901-c1ff-4daf-8dc7-7042c73869fd",
+          "required": false,
+          "name": "size",
+          "value": "tshirt-size-message#tshirt-size",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Looking for options. Hold on for a second..."
+        },
+        {
+          "type": "list_card",
+          "platform": "google",
+          "lang": "en",
+          "title": "T-Shirts",
+          "items": [
+            {
+              "optionInfo": {
+                "key": "Option 1",
+                "synonyms": [
+                  "One",
+                  "First",
+                  "1"
+                ]
+              },
+              "title": "Nike Rapid T Shirt",
+              "image": {
+                "url": "https://images.sportsdirect.com/images/products/45114903_l.jpg"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Option 2",
+                "synonyms": [
+                  "2",
+                  "Two",
+                  "Second"
+                ]
+              },
+              "title": "Nike Just Do It Shirt",
+              "image": {
+                "url": "https://images.sportsdirect.com/images/products/59163622_l.jpg"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Option 3",
+                "synonyms": [
+                  "3",
+                  "Third",
+                  "Three"
+                ]
+              },
+              "title": "Nike Ultra Swoosh T Shirt",
+              "image": {
+                "url": "https://images.sportsdirect.com/images/products/59506716_l.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Looking for options for your size $size. Give me a minute"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524210734,
+  "fallbackIntent": false,
+  "events": []
+}

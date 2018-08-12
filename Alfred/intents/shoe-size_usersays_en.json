@@ -1,0 +1,84 @@
+[
+  {
+    "id": "0e5f3db2-6855-4e9a-8283-44933ce84611",
+    "data": [
+      {
+        "text": "11",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523252147
+  },
+  {
+    "id": "aecea6cb-ebfa-470f-8774-372b6e6ef791",
+    "data": [
+      {
+        "text": "Size 11",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523255032
+  },
+  {
+    "id": "c41e208f-b652-4560-8094-d71cb961c1f4",
+    "data": [
+      {
+        "text": "My shoe size is ",
+        "userDefined": false
+      },
+      {
+        "text": "11",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523252147
+  },
+  {
+    "id": "160b00f7-209d-425e-85e0-4c438eccc00a",
+    "data": [
+      {
+        "text": "My shoe size is ",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523252147
+  },
+  {
+    "id": "e7ac9483-884f-4e0f-bfc6-35074568ed1f",
+    "data": [
+      {
+        "text": "Shoe size ",
+        "userDefined": false
+      },
+      {
+        "text": "11",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523252147
+  }
+]

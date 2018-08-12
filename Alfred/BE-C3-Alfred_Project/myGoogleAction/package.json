@@ -1,0 +1,37 @@
+{
+  "name": "jovo-sample-voice-app-nodejs",
+  "version": "1.0.0",
+  "description": "A sample voice app that works with the Jovo framework",
+  "main": "index.js",
+  "dependencies": {
+    "actions-on-google": "^2.0.1",
+    "apac": "^3.0.2",
+    "apiai": "^4.0.3",
+    "dialogflow": "^0.3.0",
+    "dialogflow-fulfillment": "^0.3.0-beta.2",
+    "fs": "0.0.1-security",
+    "jovo-framework": "^1.0.0",
+    "libxmljs": "^0.18.7",
+    "npm": "^6.0.0",
+    "opn": "^5.3.0",
+    "xml-stream": "^0.4.5",
+    "xml2js": "^0.4.19",
+    "xml2json": "^0.11.2"
+  },
+  "devDependencies": {
+    "amazon-product-api": "^0.4.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jovotech/jovo-sample-voice-app-nodejs.git"
+  },
+  "author": "Jovo",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jovotech/jovo-sample-voice-app-nodejs/issues"
+  },
+  "homepage": "https://github.com/jovotech/jovo-sample-voice-app-nodejs#readme"
+}

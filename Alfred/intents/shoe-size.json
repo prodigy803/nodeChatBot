@@ -1,0 +1,57 @@
+{
+  "id": "1638dbec-ad44-4347-8798-7060e54feb0d",
+  "name": "shoe-size",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "shoe-size-message",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "shoe-size-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "9806b625-d51a-4b4a-b675-f24de82e2bf9",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What\u0027s your size?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Thank You.",
+            "Size $number confirmed."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523339095,
+  "fallbackIntent": false,
+  "events": []
+}

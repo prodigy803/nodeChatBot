@@ -1,0 +1,50 @@
+[
+  {
+    "id": "7ca86d25-f4f3-46fe-a411-378f87a7bb64",
+    "data": [
+      {
+        "text": "Suggest some jeans",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523340062
+  },
+  {
+    "id": "d90bb964-e586-40a1-8442-56942eff7ccc",
+    "data": [
+      {
+        "text": "I need new jeans",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523340062
+  },
+  {
+    "id": "df752e7c-2eb4-40b4-b61a-0d0e77ebc0fe",
+    "data": [
+      {
+        "text": "New jeans",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523340062
+  },
+  {
+    "id": "3f95588f-c195-4854-a6a9-4705f3b1b372",
+    "data": [
+      {
+        "text": "I want new jeans",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523340062
+  }
+]

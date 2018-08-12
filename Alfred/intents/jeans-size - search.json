@@ -1,0 +1,96 @@
+{
+  "id": "574e511e-9f23-4844-9e88-6861c10bd086",
+  "parentId": "564c7c4f-96a5-448e-95fd-ae934785b90d",
+  "rootParentId": "564c7c4f-96a5-448e-95fd-ae934785b90d",
+  "name": "jeans-size - search",
+  "auto": true,
+  "contexts": [
+    "jeans-size-followup",
+    "jean-size-message"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "jeans-size.jeans-size-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "b5a2f8c1-016d-4680-b4af-fba8592924c9",
+          "name": "size",
+          "value": "jeans-size#number"
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Looking for options. Hold on for a second..."
+        },
+        {
+          "type": "list_card",
+          "platform": "google",
+          "lang": "en",
+          "title": "Jeans",
+          "items": [
+            {
+              "optionInfo": {
+                "key": "Option 1",
+                "synonyms": [
+                  "1",
+                  "One",
+                  "First"
+                ]
+              },
+              "title": "Pepe Jeans Men\u0027s Slim Fit Jeans",
+              "image": {
+                "url": "https://images-na.ssl-images-amazon.com/images/I/81yfeACvpFL._UL1500_.jpg"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Option 2",
+                "synonyms": [
+                  "2",
+                  "Second",
+                  "Two"
+                ]
+              },
+              "title": "Levis 511 Men\u0027s Jeans",
+              "image": {
+                "url": "https://images-na.ssl-images-amazon.com/images/I/91iGXFir9sL._UL1500_.jpg"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Option 3",
+                "synonyms": [
+                  "3",
+                  "Three",
+                  "Third"
+                ]
+              },
+              "title": "US Polo Association Men\u0027s Jeans",
+              "image": {
+                "url": "https://images-na.ssl-images-amazon.com/images/I/81zawWt4uFL._UL1500_.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Looking for options for your size $size. Give me a minute"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523340062,
+  "fallbackIntent": false,
+  "events": []
+}

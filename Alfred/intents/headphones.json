@@ -1,0 +1,94 @@
+{
+  "id": "f6b5b6ef-d548-4885-9fb9-09903cc6fc54",
+  "name": "headphones",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "headphones-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "5bf0c389-939c-4788-8451-ab444440ba1c",
+          "required": false,
+          "dataType": "@sys.unit-weight-name",
+          "name": "unit-weight-name",
+          "value": "$unit-weight-name",
+          "prompts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Give me a minute. Searching for headphones"
+        },
+        {
+          "type": "browse_carousel_card",
+          "platform": "google",
+          "lang": "en",
+          "items": [
+            {
+              "openUrlAction": {
+                "url": "https://www.amazon.in/Philips-SHL5000-00-Headphone-Black/dp/B01GZPDV2W/ref\u003dgbph_img_m-2_240d_07545c34?smid\u003dA14CZOWI0VEHLG\u0026pf_rd_p\u003de8dca4c0-1b4b-4dfa-9f8f-2ee1b94d240d\u0026pf_rd_s\u003dmerchandised-search-2\u0026pf_rd_t\u003d101\u0026pf_rd_i\u003d1388921031\u0026pf_rd_m\u003dA1VBAL9TL5WCBF\u0026pf_rd_r\u003d1R0X5WPZAEVKCMJGAG2H"
+              },
+              "optionInfo": {
+                "synonyms": []
+              },
+              "title": "Philips SHL5000/00 On Ear Headphone",
+              "description": "Folds to a flat for ease in carrying",
+              "image": {
+                "url": "https://images-na.ssl-images-amazon.com/images/I/710vJrGNb0L._SL1500_.jpg"
+              }
+            },
+            {
+              "openUrlAction": {
+                "url": "https://www.amazon.in/gp/product/B004MWJRR4/ref\u003ds9_acsd_cdeal_hd_bw_b1Vzlo7_c_x_w?pf_rd_m\u003dA1VBAL9TL5WCBF\u0026pf_rd_s\u003dmerchandised-search-5\u0026pf_rd_r\u003d1R0X5WPZAEVKCMJGAG2H\u0026pf_rd_t\u003d101\u0026pf_rd_p\u003da22bef76-a82a-5c70-924a-927852c77162\u0026pf_rd_i\u003d1388921031"
+              },
+              "optionInfo": {
+                "synonyms": []
+              },
+              "title": "Skullcandy S2DUDZ-072 In-Ear Headphones",
+              "description": "Ear cushion material",
+              "image": {
+                "url": "https://images-na.ssl-images-amazon.com/images/I/51IPfP2pZoL._SL1500_.jpg"
+              }
+            },
+            {
+              "footer": "Shiny metallic finish. 1 Year Manufacturer Warranty",
+              "optionInfo": {
+                "synonyms": []
+              },
+              "title": "Sony MDR-EX150AP In-Ear Headphones with Mic",
+              "description": "Vivid colours. In-line mic",
+              "image": {
+                "url": "https://images-na.ssl-images-amazon.com/images/I/61n86H2FkKL._SL1500_.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Give me a minute. Searching for headphones"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524209697,
+  "fallbackIntent": false,
+  "events": []
+}

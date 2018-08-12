@@ -1,0 +1,72 @@
+{
+  "id": "0518c38d-a516-443b-bfa9-9cabced2e5d4",
+  "name": "mobile",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "list_card",
+          "platform": "google",
+          "lang": "en",
+          "title": "Here are the Phones",
+          "items": [
+            {
+              "optionInfo": {
+                "key": "Option 1",
+                "synonyms": []
+              },
+              "title": "Apple iPhone X",
+              "description": "Rs.1,00,000",
+              "image": {
+                "url": "https://www.google.com/url?sa\u003di\u0026rct\u003dj\u0026q\u003d\u0026esrc\u003ds\u0026source\u003dimages\u0026cd\u003d\u0026cad\u003drja\u0026uact\u003d8\u0026ved\u003d2ahUKEwjqjuSV6N7aAhULOY8KHZxJArkQjRx6BAgBEAU\u0026url\u003dhttps%3A%2F%2Fwww.apple.com%2Fshop%2Fbuy-iphone%2Fiphone-x\u0026psig\u003dAOvVaw3wtevFqF58OUNbLK39cbJ6\u0026ust\u003d1525068268221084",
+                "accessibilityText": ""
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Option 2",
+                "synonyms": []
+              },
+              "title": "Google Pixel 2 XL",
+              "description": "Rs. 54,000",
+              "image": {
+                "url": "https://www.google.com/url?sa\u003di\u0026rct\u003dj\u0026q\u003d\u0026esrc\u003ds\u0026source\u003dimages\u0026cd\u003d\u0026cad\u003drja\u0026uact\u003d8\u0026ved\u003d2ahUKEwiMkZav6N7aAhWMMo8KHZl2CIYQjRx6BAgBEAU\u0026url\u003dhttps%3A%2F%2Fwww.gsmarena.com%2Fgoogle_pixel_2_xl-8720.php\u0026psig\u003dAOvVaw1ZBnC7ptoNQ3N1GZefa6Ox\u0026ust\u003d1525068322071771"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Option 3",
+                "synonyms": []
+              },
+              "title": "Samsung Note 8",
+              "description": "Rs.68,000",
+              "image": {
+                "url": "https://www.google.com/url?sa\u003di\u0026rct\u003dj\u0026q\u003d\u0026esrc\u003ds\u0026source\u003dimages\u0026cd\u003d\u0026cad\u003drja\u0026uact\u003d8\u0026ved\u003d2ahUKEwiZ3a3E6N7aAhWJqo8KHXnvA6MQjRx6BAgBEAU\u0026url\u003dhttps%3A%2F%2Fwww.from.ae%2Fen%2Fsamsung-galaxy-note-8-duos-sm-n950f-ds-64gb-4g-lte-midnight-black\u0026psig\u003dAOvVaw0MCj1fd1cR6OrQ5p5A4EbI\u0026ust\u003d1525068366647723"
+              }
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524981992,
+  "fallbackIntent": false,
+  "events": []
+}

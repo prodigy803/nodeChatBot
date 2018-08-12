@@ -1,0 +1,38 @@
+[
+  {
+    "value": "adidas",
+    "synonyms": [
+      "adidas"
+    ]
+  },
+  {
+    "value": "puma",
+    "synonyms": [
+      "puma"
+    ]
+  },
+  {
+    "value": "nike",
+    "synonyms": [
+      "nike"
+    ]
+  },
+  {
+    "value": "asics",
+    "synonyms": [
+      "asics"
+    ]
+  },
+  {
+    "value": "reebok",
+    "synonyms": [
+      "reebok"
+    ]
+  },
+  {
+    "value": "new balance",
+    "synonyms": [
+      "new balance"
+    ]
+  }
+]

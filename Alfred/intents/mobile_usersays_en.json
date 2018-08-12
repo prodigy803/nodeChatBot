@@ -1,0 +1,50 @@
+[
+  {
+    "id": "294d68a0-c774-444e-b868-de1cdedb5867",
+    "data": [
+      {
+        "text": "show me good phones",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524981992
+  },
+  {
+    "id": "d4781897-a62c-4254-97f4-c3f9e269d9bd",
+    "data": [
+      {
+        "text": "i want to buy a phone",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524981992
+  },
+  {
+    "id": "dad44652-e153-4b67-bbc6-2151cf917508",
+    "data": [
+      {
+        "text": "i want to buy a new mobile phone",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524981992
+  },
+  {
+    "id": "8902e7c0-f7a3-42a7-8292-7eb7622b6e18",
+    "data": [
+      {
+        "text": "show me a new mobile phone",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524981992
+  }
+]

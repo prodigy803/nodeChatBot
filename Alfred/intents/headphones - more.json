@@ -1,0 +1,72 @@
+{
+  "id": "e5c98f87-913c-4cd6-a36a-eb3d13088230",
+  "parentId": "f6b5b6ef-d548-4885-9fb9-09903cc6fc54",
+  "rootParentId": "f6b5b6ef-d548-4885-9fb9-09903cc6fc54",
+  "name": "headphones - more",
+  "auto": true,
+  "contexts": [
+    "headphones-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "headphones.headphones-more",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Here are more responses for you"
+        },
+        {
+          "type": "browse_carousel_card",
+          "platform": "google",
+          "lang": "en",
+          "items": [
+            {
+              "openUrlAction": {
+                "url": "https://www.amazon.in/JBL-T110BT-Wireless-Headphones-Black/dp/B075KPNDC8"
+              },
+              "optionInfo": {
+                "synonyms": []
+              },
+              "title": "JBL T110BT Pure Bass Headphones",
+              "description": "JBL Pure Bass Sound",
+              "image": {
+                "url": "https://images-na.ssl-images-amazon.com/images/I/71gB5%2BK-XmL._SL1500_.jpg"
+              }
+            },
+            {
+              "openUrlAction": {
+                "url": "https://www.amazon.in/dp/B071X68MF6/"
+              },
+              "optionInfo": {
+                "synonyms": []
+              },
+              "title": "Mivi Thunder Beats Wireless Bluetooth Earphones",
+              "description": "Bluetooh, travel ready headphones",
+              "image": {
+                "url": "https://images-na.ssl-images-amazon.com/images/I/719XcDOgusL._SL1500_.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523342945,
+  "fallbackIntent": false,
+  "events": []
+}

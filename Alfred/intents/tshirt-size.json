@@ -1,0 +1,50 @@
+{
+  "id": "f7ae338d-a82c-464b-a8ab-ff89b48a57e9",
+  "name": "tshirt-size",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "tshirt-size-message",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "tshirt-size-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "190b5c40-4ca5-432e-9d17-13c6a1e2c8ff",
+          "dataType": "@sys.unit-weight-name",
+          "name": "tshirt-size",
+          "value": "$tshirt-size",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Thank You!",
+            "Size $tshirt-size confirmed."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523339122,
+  "fallbackIntent": false,
+  "events": []
+}

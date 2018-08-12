@@ -1,0 +1,57 @@
+{
+  "id": "564c7c4f-96a5-448e-95fd-ae934785b90d",
+  "name": "jeans-size",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "jean-size-message",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "jeans-size-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "c40045a6-7d4e-43ca-9f78-ca24364c03a2",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What\u0027s your jean size?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Thank You!",
+            "Size $number confirmed."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523339562,
+  "fallbackIntent": false,
+  "events": []
+}

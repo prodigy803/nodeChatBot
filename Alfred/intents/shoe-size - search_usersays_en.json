@@ -1,0 +1,79 @@
+[
+  {
+    "id": "6275e583-99fd-4fa0-95f8-82c3c8991134",
+    "data": [
+      {
+        "text": "I need new shoes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523255666
+  },
+  {
+    "id": "cb7ee5b7-ec87-475a-8d64-24f3640bc33e",
+    "data": [
+      {
+        "text": "I want to buy shoes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523255666
+  },
+  {
+    "id": "61fd5619-1171-478c-a0ff-e7460604d14d",
+    "data": [
+      {
+        "text": "I want new shoes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523255666
+  },
+  {
+    "id": "3f0d7aad-8e38-4064-b994-d929d8ded1d7",
+    "data": [
+      {
+        "text": "Suggest some ",
+        "userDefined": false
+      },
+      {
+        "text": "Nikes",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523255666
+  },
+  {
+    "id": "38698b3f-d770-4882-9cb3-ba4fad7c6bab",
+    "data": [
+      {
+        "text": "New shoes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523255666
+  },
+  {
+    "id": "8296d8a1-dbed-4a79-9b4a-a8acdf1e078e",
+    "data": [
+      {
+        "text": "Show me some shoes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523255666
+  }
+]

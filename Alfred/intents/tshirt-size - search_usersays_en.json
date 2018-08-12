@@ -1,0 +1,74 @@
+[
+  {
+    "id": "a1fbb6b8-75b8-4581-9d58-5a19e24a6c7e",
+    "data": [
+      {
+        "text": "Suggest some t shirts",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523339404
+  },
+  {
+    "id": "db2804a4-6208-4e24-97be-34e7cf2f4095",
+    "data": [
+      {
+        "text": "I need new t shirts",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523339404
+  },
+  {
+    "id": "b7663efb-49b3-4386-b17a-2393e31a0552",
+    "data": [
+      {
+        "text": "Show me some t shirts",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523339404
+  },
+  {
+    "id": "d2c06156-640e-4840-8630-5a72f8b03651",
+    "data": [
+      {
+        "text": "I want to buy t shirts",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523339404
+  },
+  {
+    "id": "3a19e799-da1f-4cba-9651-40f5a77afe7b",
+    "data": [
+      {
+        "text": "I want new t shirts",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523339404
+  },
+  {
+    "id": "68787d0b-cb54-4101-bd78-f432120b5db4",
+    "data": [
+      {
+        "text": "New t shirts",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1523339404
+  }
+]
